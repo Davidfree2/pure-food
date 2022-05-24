@@ -1,9 +1,14 @@
+import HeroBackground from './Components/HeroBackground.js';
+import Nav from './Components/Nav.js';
 
 
 
 function App() {
   return (
-      <h1 class='bg-indigo-500'>helo</h1>
+      <>
+        <Nav />
+        <HeroBackground />
+      </>
   );
 }
 
