@@ -3,6 +3,7 @@ import Nav from './Components/Nav.js';
 import About from './Components/About.js';
 import Action from './Components/Action.js';
 import Carousel from './Components/Carousel.js';
+import Greet from './Components/Greet.js';
 
 
 
@@ -14,6 +15,7 @@ function App() {
         <About />
         <Carousel />
         <Action />
+        <Greet />
       </>
   );
 }
