@@ -2,7 +2,7 @@
 
 const Nav = () => {
     return (
-        <div class='bg-emerald-100 w-screen p-4 flex items-center justify-around'>
+        <div class='bg-emerald-100 w-full p-4 flex items-center justify-around'>
             <div class='text-4xl tracking-wider pl-10 w-3/5 flex justify-start '>
                 <h1>Pure</h1>
             </div>

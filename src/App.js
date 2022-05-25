@@ -1,5 +1,7 @@
 import HeroBackground from './Components/HeroBackground.js';
 import Nav from './Components/Nav.js';
+import About from './Components/About.js';
+import Carousel from './Components/Carousel.js';
 
 
 
@@ -8,6 +10,8 @@ function App() {
       <>
         <Nav />
         <HeroBackground />
+        <About />
+        <Carousel />
       </>
   );
 }
