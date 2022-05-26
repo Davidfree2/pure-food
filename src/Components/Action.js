@@ -2,9 +2,8 @@
 
 const Action = () => {
     return (
-        <div class='m-6 flex-col justify-center items-center p-8 bg-emerald-100'>
-            <h1 class='m-auto w-4/5 tracking-wider text-2xl leading-normal'>A truly unique oceanfront experience located in the heart of Montauk, marram is a ninety-six room boutique resort hotel, offering barefoot luxury and essential experiences that invite you to focus on life’s simple pleasures.</h1>
-            <h1 class='m-auto p-2 w-4/5 tracking-normal text-2xl leading-normal'>- David Esquerra</h1>
+        <div class='p-12 bg-white flex justify-center items-center'>
+            <h1 class='leading-normal text-slate-900 w-1/2 text-center m-8 text-2xl italic font-light '><b class='text-3xl m-4 font-medium'>WashingTimes Foodies--</b> the English word for the wild seagrass that is found all around the hotel, often planted in elegant dunes has a prime spot right on the beach.</h1>
         </div>
     );
 };
