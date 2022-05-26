@@ -4,6 +4,7 @@ import About from './Components/About.js';
 import Action from './Components/Action.js';
 import Carousel from './Components/Carousel.js';
 import Greet from './Components/Greet.js';
+import Popular from './Components/Popular.js';
 
 
 
@@ -16,6 +17,7 @@ function App() {
         <Carousel />
         <Action />
         <Greet />
+        <Popular />
       </>
   );
 }
