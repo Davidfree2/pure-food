@@ -6,6 +6,8 @@ import Carousel from './Components/Carousel.js';
 import Greet from './Components/Greet.js';
 import Popular from './Components/Popular.js';
 import Quote from './Components/Quote.js';
+import Form from './Components/Form.js';
+import Footer from './Components/Footer.js';
 
 /*make sure to add greet component and hero background*/
 
@@ -14,13 +16,13 @@ function App() {
   return (
       <>
         <Nav />
-        <HeroBackground />
         <Action />
         <Carousel />
         <About />
         <Popular />
-        <Greet />
         <Quote />
+        <Form />
+        <Footer />
       </>
   );
 }
