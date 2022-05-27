@@ -1,11 +1,15 @@
 
 
-
 const Footer = () => {
     return (
         <div class='flex-col w-full'>
-            <img class='w-full' src='./Images/hand_holding_plate.jpg' />
-            <div class=''>
+            <div class='flex justify-between items-center bg-emerald-200 w-full p-10'>
+                <div class=''>
+                    <h1 class='italic font-light text-black text-lg tracking-wide'>Website developed by David Esquerra</h1>
+                    <h1 class='italic font-light text-black text-lg tracking-wide'>davidesquerra.de@gmail.com</h1>
+                    <h1 class='italic font-light text-black text-lg tracking-wide'>davidesquerra.com</h1>
+                    <h1 class='italic font-light text-black text-lg tracking-wide'>medium.com/@DavidEsquerra</h1>
+                </div>
             </div>
         </div>
     );
